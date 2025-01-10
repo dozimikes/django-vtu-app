@@ -1,0 +1,6 @@
+<h2>Select a Provider</h2>
+<ul>
+    {% for provider in providers %}
+        <li><a href="{% url 'airtime:data_bundles' provider=provider %}">{{ provider }}</a></li>
+    {% endfor %}
+</ul>

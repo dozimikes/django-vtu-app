@@ -1,0 +1,40 @@
+{
+    "MTN": [
+        {"bundle": "100MB", "price": "100", "validity": "24 hours"},
+        {"bundle": "500MB", "price": "200", "validity": "7 days"},
+        {"bundle": "1GB", "price": "300", "validity": "7 days"},
+        {"bundle": "2GB", "price": "500", "validity": "30 days"},
+        {"bundle": "5GB", "price": "1200", "validity": "30 days"},
+        {"bundle": "10GB", "price": "2500", "validity": "30 days"},
+        {"bundle": "40GB", "price": "10000", "validity": "30 days"}
+    ],
+    "Airtel": [
+        {"bundle": "50MB", "price": "50", "validity": "24 hours"},
+        {"bundle": "100MB", "price": "100", "validity": "3 days"},
+        {"bundle": "1GB", "price": "300", "validity": "7 days"},
+        {"bundle": "2GB", "price": "500", "validity": "30 days"},
+        {"bundle": "5GB", "price": "1200", "validity": "30 days"},
+        {"bundle": "15GB", "price": "5000", "validity": "30 days"},
+        {"bundle": "40GB", "price": "10000", "validity": "90 days"}
+    ],
+    "Glo": [
+        {"bundle": "50MB", "price": "50", "validity": "1 day"},
+        {"bundle": "100MB", "price": "100", "validity": "3 days"},
+        {"bundle": "500MB", "price": "200", "validity": "7 days"},
+        {"bundle": "2GB", "price": "500", "validity": "30 days"},
+        {"bundle": "5GB", "price": "1000", "validity": "30 days"},
+        {"bundle": "12GB", "price": "2500", "validity": "30 days"},
+        {"bundle": "25GB", "price": "5000", "validity": "30 days"},
+        {"bundle": "75GB", "price": "20000", "validity": "30 days"}
+    ],
+    "9mobile": [
+        {"bundle": "50MB", "price": "50", "validity": "1 day"},
+        {"bundle": "500MB", "price": "200", "validity": "7 days"},
+        {"bundle": "1GB", "price": "300", "validity": "7 days"},
+        {"bundle": "2GB", "price": "500", "validity": "30 days"},
+        {"bundle": "4.5GB", "price": "1500", "validity": "30 days"},
+        {"bundle": "11GB", "price": "2500", "validity": "30 days"},
+        {"bundle": "40GB", "price": "10000", "validity": "30 days"},
+        {"bundle": "75GB", "price": "20000", "validity": "30 days"}
+    ]
+}

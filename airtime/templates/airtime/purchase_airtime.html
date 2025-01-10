@@ -1,0 +1,16 @@
+<h2>Purchase Airtime</h2>
+<form method="POST">
+    {% csrf_token %}
+    <label for="provider">Provider:</label>
+    <select name="provider" id="provider">
+        <option value="MTN">MTN</option>
+        <option value="Airtel">Airtel</option>
+        <option value="Glo">Glo</option>
+        <option value="9mobile">9mobile</option>
+    </select>
+    <label for="phone_number">Phone Number:</label>
+    <input type="text" name="phone_number" id="phone_number" required>
+    <label for="amount">Amount:</label>
+    <input type="number" name="amount" id="amount" required>
+    <button type="submit">Buy Airtime</button>
+</form>

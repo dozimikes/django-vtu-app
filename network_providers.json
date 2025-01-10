@@ -1,0 +1,6 @@
+[
+    {"name": "MTN", "shortcode": "MTN"},
+    {"name": "Airtel", "shortcode": "AIRTEL"},
+    {"name": "Glo", "shortcode": "GLO"},
+    {"name": "9mobile", "shortcode": "9MOBILE"}
+]

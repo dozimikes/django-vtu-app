@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Verification</title>
+</head>
+<body>
+    <h1>Verifying Your Payment...</h1>
+
+    <!-- JavaScript code for verifying payment -->
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const reference = urlParams.get('reference');
+
+        if (reference) {
+            fetch(`/verify-payment/?reference=${reference}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        alert('Payment successful!');
+                    } else {
+                        alert('Payment verification failed');
+                    }
+                });
+        }
+    </script>
+</body>
+</html>
